@@ -1,0 +1,41 @@
+#include <iostream>
+
+using namespace std;
+int main(){
+
+    int n,m;
+    int arr[6] = {3,2,4,2,3,4};
+    int arr2[4] = {4,1,3,1};
+
+    scanf("%d %d",&n,&m);
+
+    if(n + m == 2){
+        cout << "1\n1";
+        return 0;
+    }
+    else if(n==1){
+        cout << '2' << endl;
+        for(int i=0;i<m/2;i++){
+            cout << '1' << ' ';
+            cout << '2' << ' ';
+        }
+    }
+    else if(m==1){
+        printf("2");
+        for(int i=2;i<=n/2+1;i++){
+            cout << i%2+1 << ' ';
+            cout << endl;
+        }
+    }
+    else{
+        for(int i=0;i<n;i++){
+            for(int j=0;j<m;j++){
+                if(i%2==0) cout << arr[j%6] << ' ';
+                else cout << arr2[j%4] << ' ';
+            }
+            cout << endl;
+        }       
+    }
+
+    return 0;
+}
