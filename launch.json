@@ -28,8 +28,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/diamo/Deskktoptop/Desktop/SHARC/.vscode",
-      "program": "c:/Users/diamo/Deskktoptop/Desktop/SHARC/.vscode/build/Debug/outDebug",
+      "cwd": "c:/Users/diamo/Deskktoptop/Desktop/Algorithm/.vscode",
+      "program": "c:/Users/diamo/Deskktoptop/Desktop/Algorithm/.vscode/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
