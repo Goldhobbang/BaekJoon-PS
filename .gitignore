@@ -1,0 +1,17 @@
+# Build artifacts
+*.exe
+*.o
+*.obj
+
+# Build directories
+build/
+.vscode/build/
+
+# Editor / extension caches
+.vscode/.cph/
+jungol/.cph/
+.vscode/.git/
+.continue/
+
+# Auto-generated runner files
+tempCodeRunnerFile.*
